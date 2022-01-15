@@ -5,7 +5,9 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-/* top-part and image styles */
+/*------------------------
+ top-part and image styles
+-------------------------- */
 .top-part{
     display: flex;
     flex-direction: row;
@@ -35,4 +37,14 @@ body{
     width: 440px;
     height: 414px;
     
+}
+/* ---------------
+    middle Part  
+    --------------*/
+
+    .middle-part{
+    margin-top: 200px;
+}
+.middle-title{
+    text-align: center;
 }
