@@ -35,19 +35,29 @@ body{
     height: 414px;
     
 }
-.top
+.top-container img:hover{
+   transform: scale(2.0); 
+   transition: transform 2s ease-in-out;
+}
 /* -------------------
     middle Part styles 
     ------------------*/
+.middle-section-title{
+    text-align: center;
+    font-weight: 800;
+    margin: 200px;
+}
+.gears{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 100px;
+    grid-gap: 30px;
+}
+.see-more{
+    margin: 50px 150px 0px 0px;
+    float: right;
+    color: #3DCFD3;
 
-.middle-part{
-    margin-top: 200px;
-    
-}
- 
-}
-.fa-star.filled{
-    color: orange;
 }
 
 /*------------
