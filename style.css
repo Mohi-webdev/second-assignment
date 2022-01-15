@@ -38,9 +38,9 @@ body{
     height: 414px;
     
 }
-/* ---------------
-    middle Part  
-    --------------*/
+/* -------------------
+    middle Part styles 
+    ------------------*/
 
 .middle-part{
     margin-top: 200px;
@@ -55,4 +55,12 @@ body{
 }
 .fa-star.filled{
     color: orange;
+}
+
+/*------------
+footer styles 
+--------------*/
+footer{
+    background-color: lightblue;
+    text-align: center;
 }
