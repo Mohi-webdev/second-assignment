@@ -1,16 +1,38 @@
-
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body{
+    font-family: 'Poppins', sans-serif;
 
 }
-
+/* top-part and image styles */
 .top-part{
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.top-article{
+    width: 588px;
+    height: 259px;
+}
+
+.prebook-button{
+    text-decoration: none;
+    background-color: #3DCFD3;
+    padding:8px 25px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.fa-arrow-right{
+    padding-left: 5px;
 }
 
 .top-part img{
     width: 440px;
     height: 414px;
-    left: 835px;
-    top: 211px;
+    
 }
